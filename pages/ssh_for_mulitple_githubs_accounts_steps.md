@@ -149,22 +149,22 @@ Now you can work with multiple GitHub accounts using different SSH keys on the s
 
 ### Step 8 create a new repository on the command line
 
-```bash
-echo "# testing-repo" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin git@github.com:apurv_personal/testing-repo.git
-git push -u origin main
+```
+   echo "# testing-repo" >> README.md
+   git init
+   git add README.md
+   git commit -m "first commit"
+   git branch -M main
+   git remote add origin git@github.com:apurv_personal/testing-repo.git
+   git push -u origin main
 ```
 
 ### or push an existing repository from the command line
 
-```bash
-git remote add origin git@github.com:apurv_personal/testing-repo.git
-git branch -M main
-git push -u origin main
+```
+   git remote add origin git@github.com:apurv_personal/testing-repo.git
+   git branch -M main
+   git push -u origin main
 ```
 
 ## If any error comes then follow belows setps
