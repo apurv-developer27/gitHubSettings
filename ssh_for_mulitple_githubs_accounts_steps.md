@@ -132,7 +132,7 @@ Now, when cloning or pushing/pulling to repositories, you'll need to use differe
 1. For your **personal account**, clone using:
 
    ```bash
-   git clone git@github-{account1_host_in_config}:account1_username/repository.git
+   git clone git@{account1_host_in_config}:account1_username/repository.git
    # Account 1 host name which you set in your config file
 
     [e.g.] git clone git@github.com-apurv-personal:apurv-personal/TestRepo.git
@@ -141,7 +141,7 @@ Now, when cloning or pushing/pulling to repositories, you'll need to use differe
 
 2. For your **work account**, clone using:
    ```bash
-   git clone git@github-{account1_host_in_config}:account2_username/repository.git
+   git clone git@{account1_host_in_config}:account2_username/repository.git
    # Account 2 host name which you set in your config file
    ```
 
