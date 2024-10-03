@@ -171,10 +171,10 @@ It seems like the issue may still be related to SSH configuration or the reposit
 
 #### 1. **Double-Check Repository Existence**
 
-First, confirm that the repository `git_settings` exists under your GitHub account (`apurv-developer27`). Visit the following URL in your browser:
+First, confirm that the repository `git_settings` exists under your GitHub account (`apurv-personal`). Visit the following URL in your browser:
 
 ```
-https://github.com/apurv-developer27/git_settings
+https://github.com/apurv-personal/git_settings
 ```
 
 - If the repository exists, proceed with the next steps.
@@ -222,7 +222,7 @@ If you have multiple GitHub accounts, you might need to configure your SSH setti
      IdentityFile ~/.ssh/id_rsa_apurv_personal
    ```
 
-   Replace `~/.ssh/id_rsa_apurv_developer27` with the path to your private SSH key associated with `apurv-developer27`.
+   Replace `~/.ssh/id_rsa_apurv_personal` with the path to your private SSH key associated with `apurv-personal`.
 
 3. Now, update your Git remote URL to match the new SSH config:
 
