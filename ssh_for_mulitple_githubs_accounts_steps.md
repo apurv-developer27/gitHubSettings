@@ -189,7 +189,11 @@ Make sure you're logged into GitHub with the account `apurv_personal`, and this 
 Ensure that the SSH key you're using has access rights to the `apurv_personal` repository. You can check if the SSH key is properly configured by running:
 
 ```bash
+ssh -T {your_ssh_config_host}
+
+Ex:
 ssh -T git@github.com
+ssh -Tv git@github.com
 ```
 
 This should give you a message like:
@@ -236,6 +240,7 @@ After making the changes, test your SSH connection again:
 
 ```bash
 ssh -T git@github.com-apurv_personal
+ssh -Tv git@github.com-apurv_personal
 ```
 
 It should display a successful authentication message.
@@ -258,4 +263,4 @@ If you're still facing issues, check if your SSH key is correctly assigned with 
 
 ---
 
-Let me know how these steps go or if there are any specific errors at any stage!
+Let me comments, how these steps go or if there are any specific errors at any stage!
