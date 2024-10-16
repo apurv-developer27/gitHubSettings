@@ -2,7 +2,7 @@
 
 ### 👤 Created by Apurv(apurv-developer27)
 
-### 📂Inside repository pages::
+### 📂Inside repository pages ::
 
 1. <a href="https://github.com/apurv-developer27/gitHubSettings/blob/cb581e5b5d6791f3f271e160ca01da00badcbb7b/pages/ssh_for_mulitple_githubs_accounts_steps.md">ssh_for_mulitple_githubs_accounts_steps.md</a>
 
